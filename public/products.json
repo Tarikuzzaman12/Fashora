@@ -1,0 +1,382 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/V0DMJmVp/zara-Shirt.jpg",
+      "product_name": "Men's Casual Shirt",
+      "size": ["S", "M", "L", "XL"],
+      "price": 25.99,
+      "quality": "Premium",
+      "category": "men",
+      "brand": "Zara",
+      "stock": 20,
+      "rating": 4.5,
+      "discount": 10,
+      "material": "100% Cotton",
+      "description": "A comfortable and stylish casual shirt made from premium cotton fabric.",
+      "reviews": [
+        { "user": "John Doe", "rating": 5, "comment": "Loved the fabric and fit!" },
+        { "user": "Jane Smith", "rating": 4, "comment": "Good quality but took time to deliver." }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/dsL1SP9Y/levsPant.jpg",
+      "product_name": "Men's Slim Fit Jeans",
+      "size": ["30", "32", "34", "36"],
+      "price": 39.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Levi's",
+      "stock": 15,
+      "rating": 4.2,
+      "discount": 15,
+      "material": "Denim",
+      "description": "Stylish slim fit jeans with a comfortable stretch for everyday wear.",
+      "reviews": [
+        { "user": "Michael Lee", "rating": 4, "comment": "Nice fit, but a bit tight around the thighs." },
+        { "user": "Chris Green", "rating": 4, "comment": "Good jeans, decent price." }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/bg5fMw6j/HM.webp",
+      "product_name": "Women's Evening Dress",
+      "size": ["S", "M", "L", "XL"],
+      "price": 59.99,
+      "quality": "Luxury",
+      "category": "women",
+      "brand": "H&M",
+      "stock": 10,
+      "rating": 4.8,
+      "discount": 20,
+      "material": "Silk",
+      "description": "A luxurious evening dress with a beautiful silk finish, perfect for formal events.",
+      "reviews": [
+        { "user": "Emily White", "rating": 5, "comment": "Absolutely gorgeous dress! Worth every penny." },
+        { "user": "Olivia Black", "rating": 4, "comment": "The dress is stunning, but runs a little small." }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/YFhJmkPw/uniqlo-Jeans.jpg",
+      "product_name": "Women's High-Waisted Jeans",
+      "size": ["24", "26", "28", "30"],
+      "price": 34.99,
+      "quality": "Standard",
+      "category": "women",
+      "brand": "Uniqlo",
+      "stock": 30,
+      "rating": 4.4,
+      "discount": 5,
+      "material": "Cotton Blend",
+      "description": "Classic high-waisted jeans that flatter your figure and provide all-day comfort.",
+      "reviews": [
+        { "user": "Sophia Turner", "rating": 5, "comment": "Perfect fit! Comfortable and stylish." },
+        { "user": "Charlotte Rose", "rating": 3, "comment": "The material is good, but a bit too tight around the waist." }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co.com/4wdGBdSX/Nike-TShirt.jpg",
+      "product_name": "Men's Graphic T-Shirt",
+      "size": ["S", "M", "L", "XL"],
+      "price": 19.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Nike",
+      "stock": 50,
+      "rating": 4.7,
+      "discount": 10,
+      "material": "Cotton",
+      "description": "A comfortable graphic tee for casual wear with a bold design.",
+      "reviews": [
+        { "user": "David King", "rating": 5, "comment": "Great quality for the price. Love the design!" },
+        { "user": "Mark Clark", "rating": 4, "comment": "Nice shirt, but the print fades a bit after a few washes." }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://example.com/men-sweater.jpg",
+      "product_name": "Men's Wool Sweater",
+      "size": ["S", "M", "L", "XL"],
+      "price": 49.99,
+      "quality": "Premium",
+      "category": "men",
+      "brand": "Mango",
+      "stock": 25,
+      "rating": 4.6,
+      "discount": 15,
+      "material": "Wool",
+      "description": "Soft wool sweater to keep you warm and stylish during the colder months.",
+      "reviews": [
+        { "user": "Robert Black", "rating": 5, "comment": "Very warm and cozy. Excellent quality!" },
+        { "user": "Jack White", "rating": 4, "comment": "Great sweater, but a little itchy after wearing for a while." }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://example.com/women-blouse.jpg",
+      "product_name": "Women's Silk Blouse",
+      "size": ["S", "M", "L", "XL"],
+      "price": 39.99,
+      "quality": "Luxury",
+      "category": "women",
+      "brand": "Zara",
+      "stock": 12,
+      "rating": 4.3,
+      "discount": 20,
+      "material": "Silk",
+      "description": "A luxurious silk blouse with a refined look for professional or evening wear.",
+      "reviews": [
+        { "user": "Mia Rose", "rating": 4, "comment": "The blouse is beautiful, but the fit could be better." },
+        { "user": "Isabella Gray", "rating": 5, "comment": "Perfect blouse for a night out! Soft and elegant." }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://example.com/men-jacket.jpg",
+      "product_name": "Men's Leather Jacket",
+      "size": ["S", "M", "L", "XL"],
+      "price": 89.99,
+      "quality": "Luxury",
+      "category": "men",
+      "brand": "LeatherCo",
+      "stock": 8,
+      "rating": 4.9,
+      "discount": 25,
+      "material": "Leather",
+      "description": "Premium leather jacket with a stylish design for everyday wear.",
+      "reviews": [
+        { "user": "Lucas Black", "rating": 5, "comment": "Amazing jacket, fits perfectly and looks stylish!" },
+        { "user": "Ethan Green", "rating": 5, "comment": "Best leather jacket I've ever bought." }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/women-coat.jpg",
+      "product_name": "Women's Wool Coat",
+      "size": ["S", "M", "L", "XL"],
+      "price": 79.99,
+      "quality": "Luxury",
+      "category": "women",
+      "brand": "Burberry",
+      "stock": 5,
+      "rating": 5.0,
+      "discount": 30,
+      "material": "Wool",
+      "description": "A sophisticated wool coat for chilly weather, combining warmth and style.",
+      "reviews": [
+        { "user": "Sophia Green", "rating": 5, "comment": "This coat is stunning! Great quality and warm." },
+        { "user": "Lily White", "rating": 5, "comment": "Perfect fit, love the luxurious feel of the wool!" }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://example.com/men-hoodie.jpg",
+      "product_name": "Men's Hoodie",
+      "size": ["S", "M", "L", "XL"],
+      "price": 29.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Adidas",
+      "stock": 40,
+      "rating": 4.4,
+      "discount": 15,
+      "material": "Cotton Blend",
+      "description": "Comfortable hoodie for a casual look, perfect for everyday wear.",
+      "reviews": [
+        { "user": "James Lee", "rating": 4, "comment": "Good quality but the sleeves are a bit long." },
+        { "user": "Chris Brown", "rating": 5, "comment": "Very comfortable and stylish hoodie!" }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://example.com/women-scarf.jpg",
+      "product_name": "Women's Cashmere Scarf",
+      "size": ["One Size"],
+      "price": 39.99,
+      "quality": "Luxury",
+      "category": "women",
+      "brand": "Loro Piana",
+      "stock": 20,
+      "rating": 4.7,
+      "discount": 20,
+      "material": "Cashmere",
+      "description": "A soft and luxurious cashmere scarf to keep you warm and stylish.",
+      "reviews": [
+        { "user": "Charlotte Davis", "rating": 5, "comment": "So soft and warm! A must-have winter accessory." },
+        { "user": "Sophia Moore", "rating": 4, "comment": "Beautiful scarf, but a little pricey." }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://example.com/men-shoes.jpg",
+      "product_name": "Men's Running Shoes",
+      "size": ["8", "9", "10", "11"],
+      "price": 59.99,
+      "quality": "Premium",
+      "category": "men",
+      "brand": "Nike",
+      "stock": 30,
+      "rating": 4.8,
+      "discount": 10,
+      "material": "Mesh",
+      "description": "Comfortable and breathable running shoes designed for performance.",
+      "reviews": [
+        { "user": "James Foster", "rating": 5, "comment": "These shoes are incredibly comfortable for running!" },
+        { "user": "Daniel Clark", "rating": 4, "comment": "Great shoes, but they run a bit small." }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://example.com/women-boots.jpg",
+      "product_name": "Women's Ankle Boots",
+      "size": ["6", "7", "8", "9"],
+      "price": 49.99,
+      "quality": "Standard",
+      "category": "women",
+      "brand": "Steve Madden",
+      "stock": 35,
+      "rating": 4.5,
+      "discount": 15,
+      "material": "Leather",
+      "description": "Stylish ankle boots perfect for the fall and winter seasons.",
+      "reviews": [
+        { "user": "Emma Wilson", "rating": 5, "comment": "These boots are so comfortable and stylish!" },
+        { "user": "Megan Scott", "rating": 4, "comment": "Great boots, but they run slightly narrow." }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://example.com/men-socks.jpg",
+      "product_name": "Men's Cotton Socks (Pack of 3)",
+      "size": ["One Size"],
+      "price": 12.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Puma",
+      "stock": 100,
+      "rating": 4.6,
+      "discount": 10,
+      "material": "Cotton",
+      "description": "Comfortable cotton socks, perfect for daily wear, comes in a pack of 3.",
+      "reviews": [
+        { "user": "Jack Young", "rating": 5, "comment": "Great socks, very comfortable and durable." },
+        { "user": "Matthew Smith", "rating": 4, "comment": "Good socks, but the elastic could be stronger." }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://example.com/women-pants.jpg",
+      "product_name": "Women's Linen Pants",
+      "size": ["S", "M", "L", "XL"],
+      "price": 39.99,
+      "quality": "Standard",
+      "category": "women",
+      "brand": "Old Navy",
+      "stock": 18,
+      "rating": 4.3,
+      "discount": 5,
+      "material": "Linen",
+      "description": "Lightweight linen pants perfect for warm weather.",
+      "reviews": [
+        { "user": "Nina Adams", "rating": 4, "comment": "Very comfortable and light, but a bit too loose." },
+        { "user": "Ava Brooks", "rating": 5, "comment": "Perfect for summer! Super breathable." }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "https://example.com/men-sneakers.jpg",
+      "product_name": "Men's Sneakers",
+      "size": ["8", "9", "10", "11"],
+      "price": 49.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Adidas",
+      "stock": 60,
+      "rating": 4.7,
+      "discount": 20,
+      "material": "Canvas",
+      "description": "Stylish sneakers for everyday use with great comfort.",
+      "reviews": [
+        { "user": "Liam Carter", "rating": 5, "comment": "Super comfortable and stylish sneakers." },
+        { "user": "Joshua Lee", "rating": 4, "comment": "Great sneakers, but a little tight initially." }
+      ]
+    },
+    {
+      "id": 17,
+      "image": "https://example.com/women-bag.jpg",
+      "product_name": "Women's Leather Handbag",
+      "size": ["One Size"],
+      "price": 89.99,
+      "quality": "Luxury",
+      "category": "women",
+      "brand": "Gucci",
+      "stock": 10,
+      "rating": 4.9,
+      "discount": 25,
+      "material": "Leather",
+      "description": "Elegant leather handbag with a timeless design, perfect for formal occasions.",
+      "reviews": [
+        { "user": "Maya Lewis", "rating": 5, "comment": "This handbag is gorgeous and very spacious!" },
+        { "user": "Charlotte Turner", "rating": 5, "comment": "The best handbag I've ever owned!" }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "https://example.com/men-tie.jpg",
+      "product_name": "Men's Silk Tie",
+      "size": ["One Size"],
+      "price": 29.99,
+      "quality": "Luxury",
+      "category": "men",
+      "brand": "Hermes",
+      "stock": 15,
+      "rating": 4.8,
+      "discount": 20,
+      "material": "Silk",
+      "description": "A luxurious silk tie for a polished and sophisticated look.",
+      "reviews": [
+        { "user": "Daniel Walker", "rating": 5, "comment": "Beautiful tie, excellent quality." },
+        { "user": "James Foster", "rating": 4, "comment": "Very high quality, but a little too expensive." }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "https://example.com/women-skirt.jpg",
+      "product_name": "Women's A-Line Skirt",
+      "size": ["S", "M", "L", "XL"],
+      "price": 24.99,
+      "quality": "Standard",
+      "category": "women",
+      "brand": "Forever 21",
+      "stock": 40,
+      "rating": 4.4,
+      "discount": 10,
+      "material": "Polyester",
+      "description": "A classic A-line skirt, perfect for both casual and formal occasions.",
+      "reviews": [
+        { "user": "Sarah Parker", "rating": 4, "comment": "Very comfortable and flattering fit." },
+        { "user": "Hannah Brown", "rating": 5, "comment": "Love the skirt! It's versatile and stylish." }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "https://example.com/men-scarf.jpg",
+      "product_name": "Men's Wool Scarf",
+      "size": ["One Size"],
+      "price": 34.99,
+      "quality": "Standard",
+      "category": "men",
+      "brand": "Ralph Lauren",
+      "stock": 22,
+      "rating": 4.6,
+      "discount": 10,
+      "material": "Wool",
+      "description": "A soft wool scarf that adds warmth and style to your winter wardrobe.",
+      "reviews": [
+        { "user": "Ethan Scott", "rating": 5, "comment": "Great scarf! Keeps me warm during winter." },
+        { "user": "Oliver Wood", "rating": 4, "comment": "Nice scarf, but it could be softer." }
+      ]
+    }
+]
