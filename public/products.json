@@ -96,7 +96,7 @@
     },
     {
       "id": 6,
-      "image": "https://example.com/men-sweater.jpg",
+      "image": "https://i.ibb.co.com/21Fshfg1/sweeter-Mango.jpg",
       "product_name": "Men's Wool Sweater",
       "size": ["S", "M", "L", "XL"],
       "price": 49.99,
@@ -115,7 +115,7 @@
     },
     {
       "id": 7,
-      "image": "https://example.com/women-blouse.jpg",
+      "image": "https://i.ibb.co.com/cKhB4v1g/Blause-Zara.webp",
       "product_name": "Women's Silk Blouse",
       "size": ["S", "M", "L", "XL"],
       "price": 39.99,
@@ -134,7 +134,7 @@
     },
     {
       "id": 8,
-      "image": "https://example.com/men-jacket.jpg",
+      "image": "https://i.ibb.co.com/xtgXVyZp/Men-Lather-Co.jpg",
       "product_name": "Men's Leather Jacket",
       "size": ["S", "M", "L", "XL"],
       "price": 89.99,
@@ -153,7 +153,7 @@
     },
     {
       "id": 9,
-      "image": "https://example.com/women-coat.jpg",
+      "image": "https://i.ibb.co.com/6cnb3Zws/Swut-Burberry.webp",
       "product_name": "Women's Wool Coat",
       "size": ["S", "M", "L", "XL"],
       "price": 79.99,
@@ -172,7 +172,7 @@
     },
     {
       "id": 10,
-      "image": "https://example.com/men-hoodie.jpg",
+      "image": "https://i.ibb.co.com/6JJwbVh0/adidas-mens-hoodies.jpg",
       "product_name": "Men's Hoodie",
       "size": ["S", "M", "L", "XL"],
       "price": 29.99,
@@ -191,7 +191,7 @@
     },
     {
       "id": 11,
-      "image": "https://example.com/women-scarf.jpg",
+      "image": "https://i.ibb.co.com/KxdJG7QC/hijab-Qasmiri.jpg",
       "product_name": "Women's Cashmere Scarf",
       "size": ["One Size"],
       "price": 39.99,
@@ -208,66 +208,47 @@
         { "user": "Sophia Moore", "rating": 4, "comment": "Beautiful scarf, but a little pricey." }
       ]
     },
-    {
-      "id": 12,
-      "image": "https://example.com/men-shoes.jpg",
-      "product_name": "Men's Running Shoes",
-      "size": ["8", "9", "10", "11"],
-      "price": 59.99,
-      "quality": "Premium",
-      "category": "men",
-      "brand": "Nike",
-      "stock": 30,
-      "rating": 4.8,
-      "discount": 10,
-      "material": "Mesh",
-      "description": "Comfortable and breathable running shoes designed for performance.",
-      "reviews": [
-        { "user": "James Foster", "rating": 5, "comment": "These shoes are incredibly comfortable for running!" },
-        { "user": "Daniel Clark", "rating": 4, "comment": "Great shoes, but they run a bit small." }
-      ]
-    },
-    {
-      "id": 13,
-      "image": "https://example.com/women-boots.jpg",
-      "product_name": "Women's Ankle Boots",
-      "size": ["6", "7", "8", "9"],
-      "price": 49.99,
-      "quality": "Standard",
-      "category": "women",
-      "brand": "Steve Madden",
-      "stock": 35,
-      "rating": 4.5,
-      "discount": 15,
-      "material": "Leather",
-      "description": "Stylish ankle boots perfect for the fall and winter seasons.",
-      "reviews": [
-        { "user": "Emma Wilson", "rating": 5, "comment": "These boots are so comfortable and stylish!" },
-        { "user": "Megan Scott", "rating": 4, "comment": "Great boots, but they run slightly narrow." }
-      ]
-    },
-    {
-      "id": 14,
-      "image": "https://example.com/men-socks.jpg",
-      "product_name": "Men's Cotton Socks (Pack of 3)",
-      "size": ["One Size"],
-      "price": 12.99,
-      "quality": "Standard",
-      "category": "men",
-      "brand": "Puma",
-      "stock": 100,
-      "rating": 4.6,
-      "discount": 10,
-      "material": "Cotton",
-      "description": "Comfortable cotton socks, perfect for daily wear, comes in a pack of 3.",
-      "reviews": [
-        { "user": "Jack Young", "rating": 5, "comment": "Great socks, very comfortable and durable." },
-        { "user": "Matthew Smith", "rating": 4, "comment": "Good socks, but the elastic could be stronger." }
-      ]
-    },
+      {
+        "id":12,
+        "image": "https://i.ibb.co.com/Swtk5GpR/Jacket-The-Face.jpg",
+        "product_name": "Men's Winter Jacket",
+        "size": ["M", "L", "XL"],
+        "price": 79.99,
+        "quality": "Premium",
+        "category": "men",
+        "brand": "The North Face",
+        "stock": 20,
+        "rating": 4.7,
+        "discount": 20,
+        "material": "Polyester",
+        "description": "Warm and stylish winter jacket with windproof technology.",
+        "reviews": [
+          { "user": "David Miller", "rating": 5, "comment": "Very warm and comfortable jacket!" },
+          { "user": "Chris Anderson", "rating": 4, "comment": "Great jacket, but the sleeves are a bit long." }
+        ]
+      },
+      {
+        "id": 13,
+        "image": "https://i.ibb.co.com/1JwN25LR/kids-Pajama.jpg",
+        "product_name": "Kids' Cotton Pajamas",
+        "size": ["XS", "S", "M", "L"],
+        "price": 24.99,
+        "quality": "Standard",
+        "category": "kids",
+        "brand": "Carter's",
+        "stock": 50,
+        "rating": 4.6,
+        "discount": 12,
+        "material": "Cotton",
+        "description": "Soft and breathable cotton pajamas for a comfortable sleep.",
+        "reviews": [
+          { "user": "Sophia Taylor", "rating": 5, "comment": "Super soft and perfect for bedtime!" },
+          { "user": "Daniel Green", "rating": 4, "comment": "Nice quality, but could be a bit thicker." }
+        ]
+      },
     {
       "id": 15,
-      "image": "https://example.com/women-pants.jpg",
+      "image": "https://i.ibb.co.com/8nb8kr4p/women-Pants.jpg",
       "product_name": "Women's Linen Pants",
       "size": ["S", "M", "L", "XL"],
       "price": 39.99,
@@ -285,84 +266,8 @@
       ]
     },
     {
-      "id": 16,
-      "image": "https://example.com/men-sneakers.jpg",
-      "product_name": "Men's Sneakers",
-      "size": ["8", "9", "10", "11"],
-      "price": 49.99,
-      "quality": "Standard",
-      "category": "men",
-      "brand": "Adidas",
-      "stock": 60,
-      "rating": 4.7,
-      "discount": 20,
-      "material": "Canvas",
-      "description": "Stylish sneakers for everyday use with great comfort.",
-      "reviews": [
-        { "user": "Liam Carter", "rating": 5, "comment": "Super comfortable and stylish sneakers." },
-        { "user": "Joshua Lee", "rating": 4, "comment": "Great sneakers, but a little tight initially." }
-      ]
-    },
-    {
-      "id": 17,
-      "image": "https://example.com/women-bag.jpg",
-      "product_name": "Women's Leather Handbag",
-      "size": ["One Size"],
-      "price": 89.99,
-      "quality": "Luxury",
-      "category": "women",
-      "brand": "Gucci",
-      "stock": 10,
-      "rating": 4.9,
-      "discount": 25,
-      "material": "Leather",
-      "description": "Elegant leather handbag with a timeless design, perfect for formal occasions.",
-      "reviews": [
-        { "user": "Maya Lewis", "rating": 5, "comment": "This handbag is gorgeous and very spacious!" },
-        { "user": "Charlotte Turner", "rating": 5, "comment": "The best handbag I've ever owned!" }
-      ]
-    },
-    {
-      "id": 18,
-      "image": "https://example.com/men-tie.jpg",
-      "product_name": "Men's Silk Tie",
-      "size": ["One Size"],
-      "price": 29.99,
-      "quality": "Luxury",
-      "category": "men",
-      "brand": "Hermes",
-      "stock": 15,
-      "rating": 4.8,
-      "discount": 20,
-      "material": "Silk",
-      "description": "A luxurious silk tie for a polished and sophisticated look.",
-      "reviews": [
-        { "user": "Daniel Walker", "rating": 5, "comment": "Beautiful tie, excellent quality." },
-        { "user": "James Foster", "rating": 4, "comment": "Very high quality, but a little too expensive." }
-      ]
-    },
-    {
-      "id": 19,
-      "image": "https://example.com/women-skirt.jpg",
-      "product_name": "Women's A-Line Skirt",
-      "size": ["S", "M", "L", "XL"],
-      "price": 24.99,
-      "quality": "Standard",
-      "category": "women",
-      "brand": "Forever 21",
-      "stock": 40,
-      "rating": 4.4,
-      "discount": 10,
-      "material": "Polyester",
-      "description": "A classic A-line skirt, perfect for both casual and formal occasions.",
-      "reviews": [
-        { "user": "Sarah Parker", "rating": 4, "comment": "Very comfortable and flattering fit." },
-        { "user": "Hannah Brown", "rating": 5, "comment": "Love the skirt! It's versatile and stylish." }
-      ]
-    },
-    {
       "id": 20,
-      "image": "https://example.com/men-scarf.jpg",
+      "image": "https://i.ibb.co.com/TxGZYg9z/MenSkarp.jpg",
       "product_name": "Men's Wool Scarf",
       "size": ["One Size"],
       "price": 34.99,
@@ -378,5 +283,65 @@
         { "user": "Ethan Scott", "rating": 5, "comment": "Great scarf! Keeps me warm during winter." },
         { "user": "Oliver Wood", "rating": 4, "comment": "Nice scarf, but it could be softer." }
       ]
-    }
-]
+    },
+      {
+        "id": 21,
+        "image": "https://i.ibb.co.com/T9B1zv5/kids-Shirt.jpg",
+        "product_name": "Kids' Cartoon T-Shirt",
+        "size": ["XS", "S", "M", "L"],
+        "price": 19.99,
+        "quality": "Standard",
+        "category": "kids",
+        "brand": "H&M",
+        "stock": 40,
+        "rating": 4.5,
+        "discount": 10,
+        "material": "Cotton",
+        "description": "Soft and comfortable t-shirt with fun cartoon prints.",
+        "reviews": [
+          { "user": "Linda Carter", "rating": 5, "comment": "My son loves this t-shirt! Very comfortable." },
+          { "user": "Mark Evans", "rating": 4, "comment": "Nice quality, but the print fades a bit after washing." }
+        ]
+      },
+      {
+        "id": 22,
+        "image": "https://i.ibb.co.com/1GTk0Jyy/Kids-Showes.jpg",
+        "product_name": "Kids' Sports Shoes",
+        "size": ["10", "11", "12", "13"],
+        "price": 29.99,
+        "quality": "Premium",
+        "category": "kids",
+        "brand": "Adidas",
+        "stock": 35,
+        "rating": 4.7,
+        "discount": 15,
+        "material": "Mesh",
+        "description": "Breathable and lightweight sports shoes for active kids.",
+        "reviews": [
+          { "user": "Sarah Williams", "rating": 5, "comment": "Perfect fit and very comfortable!" },
+          { "user": "Tom Harris", "rating": 4, "comment": "Good shoes, but runs a bit small." }
+        ]
+      },
+      {
+        "id": 23,
+        "image": "https://i.ibb.co.com/pvJ8fW5H/kids-Jcket.jpg",
+        "product_name": "Kids' Winter Jacket",
+        "size": ["S", "M", "L"],
+        "price": 49.99,
+        "quality": "Premium",
+        "category": "kids",
+        "brand": "Gap",
+        "stock": 30,
+        "rating": 4.8,
+        "discount": 20,
+        "material": "Polyester",
+        "description": "Warm and stylish winter jacket for kids, perfect for cold weather.",
+        "reviews": [
+          { "user": "Emma Brown", "rating": 5, "comment": "Very warm and cozy, my daughter loves it!" },
+          { "user": "John Smith", "rating": 4, "comment": "Great jacket, but the zipper could be better." }
+        ]
+      }
+     
+    ]
+    
+    
