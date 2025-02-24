@@ -12,9 +12,9 @@ const Banner = () => {
   return (
     <div className="relative w-full h-[500px]">
       <img
-        src="https://example.com/your-image.jpg"
+        src="https://i.ibb.co.com/430zPC2/Banner.jpg"
         alt="Banner Image"
-        className="w-full h-96 object-cover"
+        className="w-full h-[500px] object-cover"
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">

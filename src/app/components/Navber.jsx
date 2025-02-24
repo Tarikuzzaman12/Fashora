@@ -85,11 +85,11 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end">
+        {/* <div className="navbar-end">
           <a className="btn bg-blue-500 text-white hover:bg-blue-600">
             Button
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

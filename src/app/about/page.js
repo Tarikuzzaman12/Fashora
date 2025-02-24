@@ -63,12 +63,11 @@ export default function AboutUs() {
       {/* Contact Section */}
       <div className="mt-20 text-center">
         <h2 className="text-4xl font-bold text-gray-900">Get in Touch</h2>
-        <p className="mt-4 text-lg text-gray-600">
+        <p className="mt-4 text-lg text-gray-600 mb-6">
           Have questions? We would love to hear from you.  
         </p>
         <Link href="/contect"
-         
-          className="mt-6 px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-lg transition duration-300"
+          className="mt-12 px-5 py-3 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-lg transition duration-300"
         >
           Contact Us
         </Link>

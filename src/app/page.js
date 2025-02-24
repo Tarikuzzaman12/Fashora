@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation"; // Next.js router
 import ProductCard from "./components/ProductCard";
 import TopSelling from "./components/Topselling";
 import Banner from "./components/Banner";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -38,6 +39,7 @@ export default function Home() {
         </div>
       </div>
       <TopSelling></TopSelling>
+      <Reviews></Reviews>
     </div>
   );
 }

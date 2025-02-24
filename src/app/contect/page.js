@@ -10,15 +10,15 @@ export default function Contact() {
         <div className="mt-10 grid md:grid-cols-3 gap-8 text-center">
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <h3 className="text-2xl font-semibold">📞 Phone</h3>
-            <p className="text-gray-600 mt-2">+123 456 7890</p>
+            <p className="text-gray-600 mt-2">+8801865966225</p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <h3 className="text-2xl font-semibold">📧 Email</h3>
-            <p className="text-gray-600 mt-2">info@example.com</p>
+            <p className="text-gray-600 mt-2">fashora12@gmail.com</p>
           </div>
           <div className="p-6 bg-white shadow-lg rounded-lg">
             <h3 className="text-2xl font-semibold">📍 Address</h3>
-            <p className="text-gray-600 mt-2">123 Street, City, Country</p>
+            <p className="text-gray-600 mt-2">Bonani, Dhaka, Bangladesh</p>
           </div>
         </div>
   
