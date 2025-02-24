@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 export default function AboutUs() {
+
   return (
     <div className="max-w-5xl mx-auto px-6 py-16">
       {/* Hero Section */}
@@ -16,7 +19,7 @@ export default function AboutUs() {
           <h2 className="text-4xl font-bold text-gray-800">Our Mission</h2>
           <p className="mt-5 text-lg text-gray-600 leading-relaxed">
             Our mission is to deliver top-notch products and services that 
-            enhance people lives. We believe in innovation, quality, and 
+            enhance people s lives. We believe in innovation, quality, and 
             customer satisfaction, striving to build a brand that people trust. <br /><br />
             We focus on continuous improvement, pushing boundaries to bring 
             you the best experiences possible. Our team is passionate about 
@@ -63,9 +66,12 @@ export default function AboutUs() {
         <p className="mt-4 text-lg text-gray-600">
           Have questions? We would love to hear from you.  
         </p>
-        <button className="mt-6 px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-lg transition duration-300">
+        <Link href="/contect"
+         
+          className="mt-6 px-8 py-4 bg-green-600 hover:bg-green-700 text-white text-lg font-semibold rounded-lg transition duration-300"
+        >
           Contact Us
-        </button>
+        </Link>
       </div>
     </div>
   );

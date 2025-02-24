@@ -39,6 +39,16 @@ const Navbar = () => {
           About Us
         </Link>
       </li>
+      <li>
+        <Link
+          href="/contect"
+          className={`${
+            pathname === "/contect" ? "text-white bg-blue-500" : "text-gray-300"
+          } px-4 py-2 rounded-md`}
+        >
+         Contect
+        </Link>
+      </li>
     </>
   );
 
