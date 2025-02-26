@@ -34,7 +34,7 @@ const ReviewsCarousel = () => {
         {/* Iterate through the products array */}
         {products.map((product) => (
           product.reviews.map((review, index) => (
-            <SwiperSlide key={index} className="p-6 bg-gray-100 rounded-lg shadow-md">
+            <SwiperSlide key={index} className="p-6 h-[116px] bg-gray-100 rounded-lg shadow-md">
               <div className="text-center">
                 <p className="text-xl font-semibold">{review.user}</p>
                 <div className="flex justify-center my-2">

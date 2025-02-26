@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
         <p>Brand: {product.brand}</p>
         <div className="card-actions justify-end">
           <button
-            onClick={() => router.push(`/AllItems/${product.id}`)} 
+            onClick={() => router.push(`/item/${product.id}`)} 
             className="btn btn-primary"
           >
             Details
